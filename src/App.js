@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, {Component} from 'react';
+import ReleaseBox from './containers/ReleaseBox';
 
 class App extends Component {
   render() {
     return (
-
+      <ReleaseBox />
     );
   }
 }
